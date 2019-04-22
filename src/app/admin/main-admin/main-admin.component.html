@@ -1,0 +1,20 @@
+
+<mat-grid-list cols="1" rowHeight="2:1">
+  <mat-grid-tile >
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title>Add</mat-card-title>
+      </mat-card-header>
+      <mat-card-content>
+        <div class="example-form">
+          <mat-form-field class="example-full-width">
+            <input matInput placeholder="Full name" [(ngModel)]="girlF.name">
+          </mat-form-field>
+        </div>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button (click)="add(girlF)">Add</button>
+      </mat-card-actions>
+    </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>

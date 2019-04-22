@@ -1,0 +1,7 @@
+<mat-list>
+  <div *ngFor="let list of AllList | async" detail-push>
+    <mat-list-item>{{list.name}}</mat-list-item>
+    <mat-divider></mat-divider>
+  </div>
+
+</mat-list>
